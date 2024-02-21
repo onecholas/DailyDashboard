@@ -21,4 +21,6 @@ FPGA-based security camera system with built in room ambient statistics tracking
 - Verify I2C Master
 - Write I2C Implementation for BMPP390
 - Write I2C Implementation for OV7670
-- 
+
+## Acknowledgements
+- I self learned this by watching Nandland and reading online forums!
