@@ -1,5 +1,5 @@
 # DailyDashboard
-FPGA-based security camera system with built in room abient tracking
+FPGA-based security camera system with built in room ambient statistics tracking
 
 ## Hardware
 1. ARTY Z7 Development Board
