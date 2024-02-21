@@ -6,6 +6,7 @@ FPGA-based security camera system with built in room ambient statistics tracking
 2. OV7670 Camera
 3. BMP390 Barometric Sensor
 4. 5 Inch TFT LCD Screen 800x480
+5. SD Card for temperature statistics and hallway images
 
 ## Description
 - BMP390 -> I2C -> FPGA
