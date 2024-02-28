@@ -1,0 +1,39 @@
+//wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd {0 {vcom -work work -2002 -explicit -stats=none //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity spi_master
+-- Compiling architecture behavioral of spi_master
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(44): (vcom-1136) Unknown identifier "state".
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(55): Enumeration literal "idle" is type state; expecting type (error).
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(65): (vcom-1581) No feasible entries for infix operator '='.
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(65): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(67): Enumeration literal "transceive" is type state; expecting type (error).
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(69): Enumeration literal "idle" is type state; expecting type (error).
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(71): (vcom-1136) Unknown identifier "transceieve".
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(71): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(73): Enumeration literal "ready" is type state; expecting type (error).
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(75): (vcom-1136) Unknown identifier "transmit".
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(77): (vcom-1581) No feasible entries for infix operator '='.
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(77): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(78): Enumeration literal "idle" is type state; expecting type (error).
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(84): near "mosi_miso_sync": (vcom-1576) expecting PROCESS.
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(91): Illegal target for signal assignment.
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(91): (vcom-1136) Unknown identifier "q_ss_int".
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(92): Illegal target for signal assignment.
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(92): (vcom-1136) Unknown identifier "q_ss_ext".
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/src/spi_master.vhd(97): near "elsif": (vcom-1576) expecting END.
+
+} {9.0 28.0} {}} //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/tb/spi_master_tb.vhd {0 {vcom -work work -2002 -explicit -stats=none //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/tb/spi_master_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity spi_master_tb
+-- Compiling architecture behavioral of spi_master_tb
+** Error: //wsl.localhost/Ubuntu/home/nhsu/daily-dashboard/spi_master/tb/spi_master_tb.vhd(39): near ",": (vcom-1576) expecting ';' or ')'.
+
+} {9.0 10.0} {}}
